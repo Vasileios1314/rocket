@@ -15,6 +15,7 @@ h1 {
 img{
     display: block;
     margin: 0 auto;
+    border-radius: 5px;
 }
 
 body {
@@ -23,6 +24,7 @@ body {
     background-color: white;
     padding: 0 20px 20px 20px;
     border: 5px solid black;
+    border-radius: 5px;
   }
 
   .collapsible {
@@ -35,6 +37,7 @@ body {
     text-align: left;
     outline: none;
     font-size: 15px;
+    border-radius: 5px;
   }
   
   
@@ -48,9 +51,91 @@ body {
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    border-radius: 5px;
   }
   
   
   .collapsible-content.visible {
     display: block;
   }
+
+  .treatBtn {
+    cursor: pointer;
+    outline: none;
+    width: 200px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #f1f1f1;
+    background: #c1272d;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+    /* 1.horizontal 2.vertical 3.blair 4.spread rgba 1.red 2.green 3.blue 4.opicity of the shadow */
+}
+
+.treatBtn:hover{
+  filter: brightness(95%);
+}
+
+.treatBtn:active {
+  transform: scale(0.98);
+}
+
+.homeBtn {
+  margin-top: 5px;
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+  height: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  color: #f1f1f1;
+  background: #c1272d;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+  /* 1.horizontal 2.vertical 3.blair 4.spread rgba 1.red 2.green 3.blue 4.opicity of the shadow */
+}
+
+.homeBtn:hover{
+filter: brightness(95%);
+}
+
+.homeBtn:active {
+transform: scale(0.98);
+}
+
+.browniesImg{
+  border-radius: 5px;
+}
+
+
+.fa {
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github {
+  background: #171515;
+  color: white;
+}
+
+.fa-linkedin {
+  background:  #0e76a8;
+  color: white;
+}
