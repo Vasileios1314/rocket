@@ -107,6 +107,7 @@ transform: scale(0.98);
 }
 
 .browniesImg{
+  object-fit: cover;
   border-radius: 5px;
 }
 
